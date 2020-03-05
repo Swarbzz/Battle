@@ -18,4 +18,12 @@ class Game
   def attack(player)
     player.receive_damage
   end
+
+  def switch_turns 
+    if @current_turn = player_1
+      @current_turn = player_2
+    else @current_turn = player_2
+      @current_turn = player_1
+    end
+  end
 end
