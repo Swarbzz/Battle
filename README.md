@@ -1,0 +1,1 @@
+This is a battle game using my own laptop as a server. Thrilling readme i know, thats what i'm here for; to give you literally barely any information. I'll probably add more onto this later. 

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel='stylesheet' href=style.css>
+<div class="main">
+<h1><%= @game.player_1.name %> vs. <%= @game.player_2.name %></h1>
+<h2><%= @game.player_1.name %>: 100HP 
+<br>
+<%= @game.player_2.name %>: 100HP</h2>
+<a href="/attack">Attack</a>
+<%= @game.player_2.name %>: <%= @game.player_2.hit_points %>HP
+</div>
+</body>
+</html>
